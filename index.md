@@ -5,8 +5,6 @@ tagline: A new effort at a GitHub-friendly blog platform for Jekyll
 ---
 {% include JB/setup %}
 
-## Dr. Henry
-
 This is a derivation of [jekyll-bootstrap](http://jekyllbootstrap.com/), about to undergo a lot of changes, and not suitable for anyone (yet).
 
 Check out the [repository](https://github.com/jhohertz/dr-henry)
