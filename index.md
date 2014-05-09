@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Dr. Henry
+tagline: A new effort at a GitHub-friendly blog platform for Jekyll
 ---
 {% include JB/setup %}
 
 ## Dr. Henry
 
-A new effort at a GitHub-friendly blog platform for Jekyll. It is a derivation of [jekyll-bootstrap](http://jekyllbootstrap.com/), about to undergo a lot of changes, and not suitable for anyone (yet).
+This is a derivation of [jekyll-bootstrap](http://jekyllbootstrap.com/), about to undergo a lot of changes, and not suitable for anyone (yet).
 
 Check out the [repository](https://github.com/jhohertz/dr-henry)
 

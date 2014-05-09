@@ -1,8 +1,8 @@
 ---
 layout: post
 category : general
-tagline: "A new effort at GitHub a github friendly blog platform for Jekyll"
-tags : [welcome, dr-henry, jekyll]
+tagline: "A new effort at a GitHub-friendly blog platform for Jekyll"
+tags : [welcome, dr-henry, jekyll, github]
 ---
 {% include JB/setup %}
 
