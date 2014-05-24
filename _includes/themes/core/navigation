@@ -1,0 +1,3 @@
+{% include theme_include file="subscribe" %}
+{% include theme_include file="search_box" %}
+{% include custom/navigation %}

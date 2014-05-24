@@ -1,0 +1,6 @@
+<hgroup class="navbar-brand">
+  <a href="{{ root_url }}/">{{ site.title }}</a>
+  {% if site.subtitle %}
+    - {{ site.subtitle }}
+  {% endif %}
+</hgroup>

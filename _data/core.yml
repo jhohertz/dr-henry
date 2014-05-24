@@ -1,4 +1,21 @@
 name: core
 provides:
-  - liquid_raw
+  - after_footer
+  - archive_post
+  - article
+  - author
+  - categories
   - categories_list
+  - footer
+  - header
+  - liquid_raw
+  - navigation
+  - pages_list
+  - posts_collate
+  - tags_list
+  - page_article_area
+  - page_asides
+  - post_article_area
+  - post_asides
+  - search_box
+  - subscribe

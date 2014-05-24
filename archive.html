@@ -3,8 +3,8 @@ layout: page
 title : Archive
 header : Post Archive
 group: navigation
+comments: false
 ---
-{% include JB/setup %}
-
+{% include setup %}
 {% assign posts_collate = site.posts %}
-{% include JB/posts_collate %}
+{% include theme_include file="posts_collate" %}
