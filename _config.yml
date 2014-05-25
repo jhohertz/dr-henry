@@ -14,9 +14,9 @@ gems:
 # Must be set
 theme_chain: 
   - local
-  - jekb
-  - base_bootstrap
-  #- octo
+  #- jekb
+  #- base_bootstrap
+  - octo
   #- twitter
   - core
 
