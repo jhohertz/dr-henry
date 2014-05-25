@@ -22,8 +22,8 @@ theme_chain:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 # Must not have trailing slash, IE: '/project/'
-#root: /
-root: http://jhohertz.github.io/dr-henry
+root: /
+#root: http://jhohertz.github.io/dr-henry
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
