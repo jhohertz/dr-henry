@@ -10,15 +10,26 @@ gems:
   - jekyll-mentions
   - jemoji
 
-# This will eventually be a list instead, for chaining parent themes.
+# This is going to be a lot easier later...
 # Must be set
 theme_chain: 
+  # Do local site stuff here, empty by default, masks all
   - local
+  # Regular themes, need to pick right base below per comments
+  # Needs Bootstrap3
   #- jekb
-  #- base_bootstrap
-  - octo
-  #- twitter
+  # No base needed
+  #- octo
+  # Needs Foundation5
+  - octolost
+  # Base themes from here to core pick what's needed
+  #- bootstrap2
+  #- bootstrap3
+  - foundation5
+  # Always have core.
   - core
+
+icon_set: dr
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 # Must not have trailing slash, IE: '/project/'
@@ -58,7 +69,7 @@ excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of 
 # so be sure to set them if your theme uses them.
 #
 title : Dr. Henry
-tagline: A derivation of jekyll-boostrap
+subtitle : Jekyll transformation for your GitHub Pages... pages.
 author :
   name : Joe Hohertz
   email : jhohertz@gmail.com
