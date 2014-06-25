@@ -14,7 +14,7 @@ Read on if you care about the nitty gritty details, or ignore them if you don't.
 
 <!--fold-->
 
-I couldn't go quite as far as I had wanted in precalculating theme config. By iterating the list of core theme items, and evaluating the final template path, we could build an index of theme items, and not need to do the double include for the theme include mechanism. Instead we could say: {% capture text %}|.% include theme_map[yourtheme]  %.|{% endcapture %}{% include theme file="liquid_raw" %}
+I couldn't go quite as far as I had wanted in precalculating theme config. By iterating the list of core theme items, and evaluating the final template path, we could build an index of theme items, and not need to do the double include for the theme include mechanism. Instead we could say: {% capture text %}|.% include theme_map[yourtheme]  %.|{% endcapture %}{% include tt_liquid_raw %}
 <br/>
 The main benefit to this, is it would let us freely use the key=value expressions for include-specific details. We can't do that with the middle include, as it would need to pass everything else on.
 
